@@ -1972,7 +1972,6 @@
                             if ((i = e.assets[o]).url) {
                                 var a = r === v ? u.fastlyHost : u.akamaiHost;
                                 i.url = i.url.replace(/^https:\/\/embed-ssl\.wistia\.com/, "https://" + a("https:", n.embedHost))
-                                console.log('aaa', i.url)
                             } return e.secondaryMediaData && t(e.secondaryMediaData, n), e
                 },
                 w = function(t) {
@@ -1988,7 +1987,6 @@
                                 i = "".concat(n.absolute(), "/clipTo/").concat(r, "/clipFrom/").concat(a, "/index.m3u8")
                             }
                             e.url = i
-                            console.log('bbb', e.url)
                         }
                         return e
                     })), t.keyframeAlign && (0, s.count)("player/keyframe-align-repackager", 1, {
